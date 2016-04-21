@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2C4366871CC89C6A00B4C71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366861CC89C6A00B4C71E /* main.m */; };
-		2C43668A1CC89C6A00B4C71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366891CC89C6A00B4C71E /* AppDelegate.m */; };
-		2C43668D1CC89C6A00B4C71E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C43668C1CC89C6A00B4C71E /* ViewController.m */; };
 		2C4366901CC89C6A00B4C71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C43668E1CC89C6A00B4C71E /* Main.storyboard */; };
 		2C4366931CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366911CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld */; };
 		2C4366951CC89C6A00B4C71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4366941CC89C6A00B4C71E /* Assets.xcassets */; };
 		2C4366981CC89C6A00B4C71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4366961CC89C6A00B4C71E /* LaunchScreen.storyboard */; };
 		2C4366A31CC89C6A00B4C71E /* TheElegantLeopardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366A21CC89C6A00B4C71E /* TheElegantLeopardTests.m */; };
 		2C4366AE1CC89C6A00B4C71E /* TheElegantLeopardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366AD1CC89C6A00B4C71E /* TheElegantLeopardUITests.m */; };
+		2C4366CC1CC8B84700B4C71E /* SKGuidePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366CB1CC8B84700B4C71E /* SKGuidePageController.m */; };
+		2C4366CF1CC8B85400B4C71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366CE1CC8B85400B4C71E /* AppDelegate.m */; };
 		8AE8BF0F6F000C8F970B2E48 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C66E258A48170D66ADF5EE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,10 +39,6 @@
 /* Begin PBXFileReference section */
 		2C4366821CC89C6A00B4C71E /* TheElegantLeopard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheElegantLeopard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4366861CC89C6A00B4C71E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C4366881CC89C6A00B4C71E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2C4366891CC89C6A00B4C71E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C43668B1CC89C6A00B4C71E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C43668C1CC89C6A00B4C71E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2C43668F1CC89C6A00B4C71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C4366921CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheElegantLeopard.xcdatamodel; sourceTree = "<group>"; };
 		2C4366941CC89C6A00B4C71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +50,10 @@
 		2C4366A91CC89C6A00B4C71E /* TheElegantLeopardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheElegantLeopardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4366AD1CC89C6A00B4C71E /* TheElegantLeopardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheElegantLeopardUITests.m; sourceTree = "<group>"; };
 		2C4366AF1CC89C6A00B4C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4366CA1CC8B84700B4C71E /* SKGuidePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKGuidePageController.h; path = ../Main/guidePage/SKGuidePageController.h; sourceTree = "<group>"; };
+		2C4366CB1CC8B84700B4C71E /* SKGuidePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKGuidePageController.m; path = ../Main/guidePage/SKGuidePageController.m; sourceTree = "<group>"; };
+		2C4366CD1CC8B85400B4C71E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C4366CE1CC8B85400B4C71E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		47C66E258A48170D66ADF5EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FBE4784206206D6489A42A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EAB567B805C8F5B9A0EC5CF6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,11 +110,7 @@
 		2C4366841CC89C6A00B4C71E /* TheElegantLeopard */ = {
 			isa = PBXGroup;
 			children = (
-				2C4366881CC89C6A00B4C71E /* AppDelegate.h */,
-				2C4366891CC89C6A00B4C71E /* AppDelegate.m */,
-				2C43668B1CC89C6A00B4C71E /* ViewController.h */,
-				2C43668C1CC89C6A00B4C71E /* ViewController.m */,
-				2C43668E1CC89C6A00B4C71E /* Main.storyboard */,
+				2C4366C21CC8B77900B4C71E /* Main */,
 				2C4366941CC89C6A00B4C71E /* Assets.xcassets */,
 				2C4366961CC89C6A00B4C71E /* LaunchScreen.storyboard */,
 				2C4366991CC89C6A00B4C71E /* Info.plist */,
@@ -148,6 +144,27 @@
 				2C4366AF1CC89C6A00B4C71E /* Info.plist */,
 			);
 			path = TheElegantLeopardUITests;
+			sourceTree = "<group>";
+		};
+		2C4366C11CC8B76C00B4C71E /* guidePage */ = {
+			isa = PBXGroup;
+			children = (
+				2C4366CA1CC8B84700B4C71E /* SKGuidePageController.h */,
+				2C4366CB1CC8B84700B4C71E /* SKGuidePageController.m */,
+			);
+			name = guidePage;
+			path = ../guidePage;
+			sourceTree = "<group>";
+		};
+		2C4366C21CC8B77900B4C71E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C4366CD1CC8B85400B4C71E /* AppDelegate.h */,
+				2C4366CE1CC8B85400B4C71E /* AppDelegate.m */,
+				2C43668E1CC89C6A00B4C71E /* Main.storyboard */,
+				2C4366C11CC8B76C00B4C71E /* guidePage */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		2D7A8AFE0B0AF3777515DF63 /* Frameworks */ = {
@@ -231,6 +248,7 @@
 		2C43667A1CC89C6A00B4C71E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SK;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SK;
 				TargetAttributes = {
@@ -332,10 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C43668D1CC89C6A00B4C71E /* ViewController.m in Sources */,
-				2C43668A1CC89C6A00B4C71E /* AppDelegate.m in Sources */,
 				2C4366931CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld in Sources */,
 				2C4366871CC89C6A00B4C71E /* main.m in Sources */,
+				2C4366CC1CC8B84700B4C71E /* SKGuidePageController.m in Sources */,
+				2C4366CF1CC8B85400B4C71E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +395,7 @@
 				2C43668F1CC89C6A00B4C71E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		2C4366961CC89C6A00B4C71E /* LaunchScreen.storyboard */ = {
@@ -476,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TheElegantLeopard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SK.TheElegantLeopard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,6 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TheElegantLeopard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SK.TheElegantLeopard;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SKGuidePageController.h
 //  TheElegantLeopard
 //
 //  Created by lzb on 16/4/21.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SKGuidePageController : UIViewController
 
 @end
-
