@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4366871CC89C6A00B4C71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366861CC89C6A00B4C71E /* main.m */; };
+		2C43668A1CC89C6A00B4C71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366891CC89C6A00B4C71E /* AppDelegate.m */; };
+		2C43668D1CC89C6A00B4C71E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C43668C1CC89C6A00B4C71E /* ViewController.m */; };
+		2C4366901CC89C6A00B4C71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C43668E1CC89C6A00B4C71E /* Main.storyboard */; };
+		2C4366931CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366911CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld */; };
+		2C4366951CC89C6A00B4C71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4366941CC89C6A00B4C71E /* Assets.xcassets */; };
+		2C4366981CC89C6A00B4C71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4366961CC89C6A00B4C71E /* LaunchScreen.storyboard */; };
+		2C4366A31CC89C6A00B4C71E /* TheElegantLeopardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366A21CC89C6A00B4C71E /* TheElegantLeopardTests.m */; };
+		2C4366AE1CC89C6A00B4C71E /* TheElegantLeopardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366AD1CC89C6A00B4C71E /* TheElegantLeopardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C43669F1CC89C6A00B4C71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C43667A1CC89C6A00B4C71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4366811CC89C6A00B4C71E;
+			remoteInfo = TheElegantLeopard;
+		};
+		2C4366AA1CC89C6A00B4C71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C43667A1CC89C6A00B4C71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4366811CC89C6A00B4C71E;
+			remoteInfo = TheElegantLeopard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C4366821CC89C6A00B4C71E /* TheElegantLeopard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheElegantLeopard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4366861CC89C6A00B4C71E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C4366881CC89C6A00B4C71E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C4366891CC89C6A00B4C71E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C43668B1CC89C6A00B4C71E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C43668C1CC89C6A00B4C71E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C43668F1CC89C6A00B4C71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C4366921CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheElegantLeopard.xcdatamodel; sourceTree = "<group>"; };
+		2C4366941CC89C6A00B4C71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C4366971CC89C6A00B4C71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C4366991CC89C6A00B4C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C43669E1CC89C6A00B4C71E /* TheElegantLeopardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheElegantLeopardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4366A21CC89C6A00B4C71E /* TheElegantLeopardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheElegantLeopardTests.m; sourceTree = "<group>"; };
+		2C4366A41CC89C6A00B4C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4366A91CC89C6A00B4C71E /* TheElegantLeopardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheElegantLeopardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4366AD1CC89C6A00B4C71E /* TheElegantLeopardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheElegantLeopardUITests.m; sourceTree = "<group>"; };
+		2C4366AF1CC89C6A00B4C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C43667F1CC89C6A00B4C71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C43669B1CC89C6A00B4C71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4366A61CC89C6A00B4C71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4366791CC89C6A00B4C71E = {
+			isa = PBXGroup;
+			children = (
+				2C4366841CC89C6A00B4C71E /* TheElegantLeopard */,
+				2C4366A11CC89C6A00B4C71E /* TheElegantLeopardTests */,
+				2C4366AC1CC89C6A00B4C71E /* TheElegantLeopardUITests */,
+				2C4366831CC89C6A00B4C71E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4366831CC89C6A00B4C71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4366821CC89C6A00B4C71E /* TheElegantLeopard.app */,
+				2C43669E1CC89C6A00B4C71E /* TheElegantLeopardTests.xctest */,
+				2C4366A91CC89C6A00B4C71E /* TheElegantLeopardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4366841CC89C6A00B4C71E /* TheElegantLeopard */ = {
+			isa = PBXGroup;
+			children = (
+				2C4366881CC89C6A00B4C71E /* AppDelegate.h */,
+				2C4366891CC89C6A00B4C71E /* AppDelegate.m */,
+				2C43668B1CC89C6A00B4C71E /* ViewController.h */,
+				2C43668C1CC89C6A00B4C71E /* ViewController.m */,
+				2C43668E1CC89C6A00B4C71E /* Main.storyboard */,
+				2C4366941CC89C6A00B4C71E /* Assets.xcassets */,
+				2C4366961CC89C6A00B4C71E /* LaunchScreen.storyboard */,
+				2C4366991CC89C6A00B4C71E /* Info.plist */,
+				2C4366911CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld */,
+				2C4366851CC89C6A00B4C71E /* Supporting Files */,
+			);
+			path = TheElegantLeopard;
+			sourceTree = "<group>";
+		};
+		2C4366851CC89C6A00B4C71E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C4366861CC89C6A00B4C71E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C4366A11CC89C6A00B4C71E /* TheElegantLeopardTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4366A21CC89C6A00B4C71E /* TheElegantLeopardTests.m */,
+				2C4366A41CC89C6A00B4C71E /* Info.plist */,
+			);
+			path = TheElegantLeopardTests;
+			sourceTree = "<group>";
+		};
+		2C4366AC1CC89C6A00B4C71E /* TheElegantLeopardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4366AD1CC89C6A00B4C71E /* TheElegantLeopardUITests.m */,
+				2C4366AF1CC89C6A00B4C71E /* Info.plist */,
+			);
+			path = TheElegantLeopardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C4366811CC89C6A00B4C71E /* TheElegantLeopard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4366B21CC89C6A00B4C71E /* Build configuration list for PBXNativeTarget "TheElegantLeopard" */;
+			buildPhases = (
+				2C43667E1CC89C6A00B4C71E /* Sources */,
+				2C43667F1CC89C6A00B4C71E /* Frameworks */,
+				2C4366801CC89C6A00B4C71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheElegantLeopard;
+			productName = TheElegantLeopard;
+			productReference = 2C4366821CC89C6A00B4C71E /* TheElegantLeopard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C43669D1CC89C6A00B4C71E /* TheElegantLeopardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4366B51CC89C6A00B4C71E /* Build configuration list for PBXNativeTarget "TheElegantLeopardTests" */;
+			buildPhases = (
+				2C43669A1CC89C6A00B4C71E /* Sources */,
+				2C43669B1CC89C6A00B4C71E /* Frameworks */,
+				2C43669C1CC89C6A00B4C71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4366A01CC89C6A00B4C71E /* PBXTargetDependency */,
+			);
+			name = TheElegantLeopardTests;
+			productName = TheElegantLeopardTests;
+			productReference = 2C43669E1CC89C6A00B4C71E /* TheElegantLeopardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C4366A81CC89C6A00B4C71E /* TheElegantLeopardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4366B81CC89C6A00B4C71E /* Build configuration list for PBXNativeTarget "TheElegantLeopardUITests" */;
+			buildPhases = (
+				2C4366A51CC89C6A00B4C71E /* Sources */,
+				2C4366A61CC89C6A00B4C71E /* Frameworks */,
+				2C4366A71CC89C6A00B4C71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4366AB1CC89C6A00B4C71E /* PBXTargetDependency */,
+			);
+			name = TheElegantLeopardUITests;
+			productName = TheElegantLeopardUITests;
+			productReference = 2C4366A91CC89C6A00B4C71E /* TheElegantLeopardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C43667A1CC89C6A00B4C71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SK;
+				TargetAttributes = {
+					2C4366811CC89C6A00B4C71E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2C43669D1CC89C6A00B4C71E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2C4366811CC89C6A00B4C71E;
+					};
+					2C4366A81CC89C6A00B4C71E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2C4366811CC89C6A00B4C71E;
+					};
+				};
+			};
+			buildConfigurationList = 2C43667D1CC89C6A00B4C71E /* Build configuration list for PBXProject "TheElegantLeopard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C4366791CC89C6A00B4C71E;
+			productRefGroup = 2C4366831CC89C6A00B4C71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4366811CC89C6A00B4C71E /* TheElegantLeopard */,
+				2C43669D1CC89C6A00B4C71E /* TheElegantLeopardTests */,
+				2C4366A81CC89C6A00B4C71E /* TheElegantLeopardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4366801CC89C6A00B4C71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4366981CC89C6A00B4C71E /* LaunchScreen.storyboard in Resources */,
+				2C4366951CC89C6A00B4C71E /* Assets.xcassets in Resources */,
+				2C4366901CC89C6A00B4C71E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C43669C1CC89C6A00B4C71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4366A71CC89C6A00B4C71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C43667E1CC89C6A00B4C71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C43668D1CC89C6A00B4C71E /* ViewController.m in Sources */,
+				2C43668A1CC89C6A00B4C71E /* AppDelegate.m in Sources */,
+				2C4366931CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld in Sources */,
+				2C4366871CC89C6A00B4C71E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C43669A1CC89C6A00B4C71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4366A31CC89C6A00B4C71E /* TheElegantLeopardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4366A51CC89C6A00B4C71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4366AE1CC89C6A00B4C71E /* TheElegantLeopardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C4366A01CC89C6A00B4C71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4366811CC89C6A00B4C71E /* TheElegantLeopard */;
+			targetProxy = 2C43669F1CC89C6A00B4C71E /* PBXContainerItemProxy */;
+		};
+		2C4366AB1CC89C6A00B4C71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4366811CC89C6A00B4C71E /* TheElegantLeopard */;
+			targetProxy = 2C4366AA1CC89C6A00B4C71E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C43668E1CC89C6A00B4C71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C43668F1CC89C6A00B4C71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C4366961CC89C6A00B4C71E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4366971CC89C6A00B4C71E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C4366B01CC89C6A00B4C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C4366B11CC89C6A00B4C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C4366B31CC89C6A00B4C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheElegantLeopard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SK.TheElegantLeopard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C4366B41CC89C6A00B4C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheElegantLeopard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SK.TheElegantLeopard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C4366B61CC89C6A00B4C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheElegantLeopardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SK.TheElegantLeopardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheElegantLeopard.app/TheElegantLeopard";
+			};
+			name = Debug;
+		};
+		2C4366B71CC89C6A00B4C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheElegantLeopardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SK.TheElegantLeopardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheElegantLeopard.app/TheElegantLeopard";
+			};
+			name = Release;
+		};
+		2C4366B91CC89C6A00B4C71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheElegantLeopardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SK.TheElegantLeopardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheElegantLeopard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2C4366BA1CC89C6A00B4C71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheElegantLeopardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SK.TheElegantLeopardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheElegantLeopard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C43667D1CC89C6A00B4C71E /* Build configuration list for PBXProject "TheElegantLeopard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4366B01CC89C6A00B4C71E /* Debug */,
+				2C4366B11CC89C6A00B4C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4366B21CC89C6A00B4C71E /* Build configuration list for PBXNativeTarget "TheElegantLeopard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4366B31CC89C6A00B4C71E /* Debug */,
+				2C4366B41CC89C6A00B4C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C4366B51CC89C6A00B4C71E /* Build configuration list for PBXNativeTarget "TheElegantLeopardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4366B61CC89C6A00B4C71E /* Debug */,
+				2C4366B71CC89C6A00B4C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C4366B81CC89C6A00B4C71E /* Build configuration list for PBXNativeTarget "TheElegantLeopardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4366B91CC89C6A00B4C71E /* Debug */,
+				2C4366BA1CC89C6A00B4C71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C4366911CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C4366921CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodel */,
+			);
+			currentVersion = 2C4366921CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodel */;
+			path = TheElegantLeopard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C43667A1CC89C6A00B4C71E /* Project object */;
+}
