@@ -16,6 +16,7 @@
 		2C4366AE1CC89C6A00B4C71E /* TheElegantLeopardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366AD1CC89C6A00B4C71E /* TheElegantLeopardUITests.m */; };
 		2C4366CC1CC8B84700B4C71E /* SKGuidePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366CB1CC8B84700B4C71E /* SKGuidePageController.m */; };
 		2C4366CF1CC8B85400B4C71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366CE1CC8B85400B4C71E /* AppDelegate.m */; };
+		2C75E3F61CCA02FA005FEA6D /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C75E3F51CCA02FA005FEA6D /* User.storyboard */; };
 		8AE8BF0F6F000C8F970B2E48 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C66E258A48170D66ADF5EE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		2C4366CB1CC8B84700B4C71E /* SKGuidePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKGuidePageController.m; path = ../Main/guidePage/SKGuidePageController.m; sourceTree = "<group>"; };
 		2C4366CD1CC8B85400B4C71E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C4366CE1CC8B85400B4C71E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C75E3F51CCA02FA005FEA6D /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		47C66E258A48170D66ADF5EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FBE4784206206D6489A42A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EAB567B805C8F5B9A0EC5CF6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		2C4366841CC89C6A00B4C71E /* TheElegantLeopard */ = {
 			isa = PBXGroup;
 			children = (
+				2C75E3F41CCA02E9005FEA6D /* User */,
 				2C4366C21CC8B77900B4C71E /* Main */,
 				2C4366941CC89C6A00B4C71E /* Assets.xcassets */,
 				2C4366961CC89C6A00B4C71E /* LaunchScreen.storyboard */,
@@ -165,6 +168,14 @@
 				2C4366C11CC8B76C00B4C71E /* guidePage */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		2C75E3F41CCA02E9005FEA6D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2C75E3F51CCA02FA005FEA6D /* User.storyboard */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		2D7A8AFE0B0AF3777515DF63 /* Frameworks */ = {
@@ -291,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4366981CC89C6A00B4C71E /* LaunchScreen.storyboard in Resources */,
+				2C75E3F61CCA02FA005FEA6D /* User.storyboard in Resources */,
 				2C4366951CC89C6A00B4C71E /* Assets.xcassets in Resources */,
 				2C4366901CC89C6A00B4C71E /* Main.storyboard in Resources */,
 			);
