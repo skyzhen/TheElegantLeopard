@@ -14,9 +14,9 @@
 		2C4366981CC89C6A00B4C71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4366961CC89C6A00B4C71E /* LaunchScreen.storyboard */; };
 		2C4366A31CC89C6A00B4C71E /* TheElegantLeopardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366A21CC89C6A00B4C71E /* TheElegantLeopardTests.m */; };
 		2C4366AE1CC89C6A00B4C71E /* TheElegantLeopardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366AD1CC89C6A00B4C71E /* TheElegantLeopardUITests.m */; };
-		2C4366CC1CC8B84700B4C71E /* SKGuidePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366CB1CC8B84700B4C71E /* SKGuidePageController.m */; };
 		2C4366CF1CC8B85400B4C71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4366CE1CC8B85400B4C71E /* AppDelegate.m */; };
 		2C75E3F61CCA02FA005FEA6D /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C75E3F51CCA02FA005FEA6D /* User.storyboard */; };
+		2CE805901CD0A84F009A8507 /* SKGuidePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8058F1CD0A84F009A8507 /* SKGuidePageController.m */; };
 		8AE8BF0F6F000C8F970B2E48 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C66E258A48170D66ADF5EE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -51,11 +51,11 @@
 		2C4366A91CC89C6A00B4C71E /* TheElegantLeopardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheElegantLeopardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4366AD1CC89C6A00B4C71E /* TheElegantLeopardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheElegantLeopardUITests.m; sourceTree = "<group>"; };
 		2C4366AF1CC89C6A00B4C71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C4366CA1CC8B84700B4C71E /* SKGuidePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKGuidePageController.h; path = ../Main/guidePage/SKGuidePageController.h; sourceTree = "<group>"; };
-		2C4366CB1CC8B84700B4C71E /* SKGuidePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKGuidePageController.m; path = ../Main/guidePage/SKGuidePageController.m; sourceTree = "<group>"; };
 		2C4366CD1CC8B85400B4C71E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C4366CE1CC8B85400B4C71E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C75E3F51CCA02FA005FEA6D /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		2CE8058E1CD0A84F009A8507 /* SKGuidePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKGuidePageController.h; path = guidePage/SKGuidePageController.h; sourceTree = "<group>"; };
+		2CE8058F1CD0A84F009A8507 /* SKGuidePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKGuidePageController.m; path = guidePage/SKGuidePageController.m; sourceTree = "<group>"; };
 		47C66E258A48170D66ADF5EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FBE4784206206D6489A42A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EAB567B805C8F5B9A0EC5CF6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,8 +152,6 @@
 		2C4366C11CC8B76C00B4C71E /* guidePage */ = {
 			isa = PBXGroup;
 			children = (
-				2C4366CA1CC8B84700B4C71E /* SKGuidePageController.h */,
-				2C4366CB1CC8B84700B4C71E /* SKGuidePageController.m */,
 			);
 			name = guidePage;
 			path = ../guidePage;
@@ -162,6 +160,8 @@
 		2C4366C21CC8B77900B4C71E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2CE8058E1CD0A84F009A8507 /* SKGuidePageController.h */,
+				2CE8058F1CD0A84F009A8507 /* SKGuidePageController.m */,
 				2C4366CD1CC8B85400B4C71E /* AppDelegate.h */,
 				2C4366CE1CC8B85400B4C71E /* AppDelegate.m */,
 				2C43668E1CC89C6A00B4C71E /* Main.storyboard */,
@@ -364,8 +364,8 @@
 			files = (
 				2C4366931CC89C6A00B4C71E /* TheElegantLeopard.xcdatamodeld in Sources */,
 				2C4366871CC89C6A00B4C71E /* main.m in Sources */,
-				2C4366CC1CC8B84700B4C71E /* SKGuidePageController.m in Sources */,
 				2C4366CF1CC8B85400B4C71E /* AppDelegate.m in Sources */,
+				2CE805901CD0A84F009A8507 /* SKGuidePageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
